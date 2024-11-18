@@ -1246,16 +1246,22 @@
                 ></iframe>
               </div>
             </div>
-
+            <!-- action="forms/contact.php" -->
+            <!-- method="post" -->
             <div class="col-lg-7">
               <form
-                action="forms/contact.php"
-                method="post"
+                action="https://api.web3forms.com/submit"
+                method="POST"
                 class="php-email-form"
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
                 <div class="row gy-4">
+                  <input
+                    type="hidden"
+                    name="access_key"
+                    value="57f50cfc-81ff-4839-a5b4-60b461e4fe57"
+                  />
                   <div class="col-md-6">
                     <label for="name-field" class="pb-2">Your Name</label>
                     <input
@@ -1302,11 +1308,12 @@
 
                   <div class="col-md-12 text-center">
                     <div class="loading">Loading</div>
-                    <div class="error-message"></div>
                     <div class="sent-message">
                       Your message has been sent. Thank you!
                     </div>
-
+                    <div class="error-message">
+                      Your message has been sent. Thank you!
+                    </div>
                     <button type="submit">Send Message</button>
                   </div>
                 </div>
