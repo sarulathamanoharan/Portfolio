@@ -1,11 +1,4 @@
-Note : i used 1
+
 1.
  Receive/Working Contact Form Data on Email: https://web3forms.com/
  Reference Youtube link: https://youtu.be/-HeadgoqJ7A?si=oMIbKJDs6wXayV-U
-OR
-
-2.
-Link : https://app.elasticemail.com/api/settings/create-smtp
-SMTP Username : myemail
- SMTP Password : 820A7019CE09257DC0A38481B53D05008CA8
-  Reference Youtube link: https://youtu.be/sGQSz22U8VM?si=xXrXHP2nfLpdcUjD
